@@ -440,7 +440,7 @@
                         winEl.unbind('orientationchange', onOrientationChange);
                         winEl.unbind('resize', onOrientationChange);
                     });
-
+                    onOrientationChange();
                 };
             }
         };
